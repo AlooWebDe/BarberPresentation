@@ -4,25 +4,25 @@ export default function About() {
   return (
     <>
       <section className="py-14">
-        <div className="max-w-screen-xl mx-auto md:px-8">
-          <div className="items-center gap-12 sm:px-4 md:px-0 lg:flex lg:flex-row-reverse">
-            <div className="flex flex-row justify-center gap-5">
+        <div className="lg:max-w-screen-xl mx-auto md:px-8">
+          <div className="items-center gap-12 px-4 md:px-0 lg:flex lg:flex-row-reverse">
+            <div className="flex flex-row justify-center gap-5 ">
               <div>
                 <img
                   src={pic1}
-                  className="md:max-w-[350px] md:h-[400px] sm:rounded-sm mt-36"
+                  className="lg:max-w-[350px] lg:max-h-[400px] sm:rounded-sm mt-36"
                   alt=""
                 />
               </div>
               <div>
                 <img
                   src={pic1}
-                  className="md:max-w-[350px] md:h-[400px] sm:rounded-sm"
+                  className="lg:max-w-[350px] lg:max-h-[400px] sm:rounded-sm"
                   alt=""
                 />
               </div>
             </div>
-            <div className="max-w-xl mx-auto px-4 space-y-3 mt-6 sm:px-0 lg:max-w-2xl">
+            <div className="max-w-xl mx-auto space-y-3 mt-6 md:max-w-2xl">
               <h3 className="text-[#625c56] font-semibold">SINCE 2006</h3>
               <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
                 Perukar Barber Shop
@@ -85,7 +85,7 @@ export default function About() {
         </div>
       </section>
       <section className="md:px-10 lg:px-20">
-        <div className="container px-5 md:py-24 py-10 mx-auto">
+        <div className="container px-5 md:py-15 py-10 mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div className="p-4 flex">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full text-[#625c56] mb-4 flex-shrink-0">
