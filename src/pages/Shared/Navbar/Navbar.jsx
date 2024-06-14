@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import ScrollToHashElement from "../../../Routes/ScrollToHashElement";
 
 export default function Navbar() {
   const [visible, setVisible] = useState(false);
   return (
     <>
+      <ScrollToHashElement />
       <header className="md:flex w-full items-center justify-between px-0 md:px-20 lg:px-64 fixed md:absolute z-[100] bg-black md:bg-transparent text-white border-b border-stone-500 border-opacity-60">
         <div className="flex items-center justify-between py-4 px-4 lg:px-0 border-b border-stone-500 border-opacity-60 md:border-none">
           <Link to="/" className="flex items-center gap-2">
@@ -36,19 +38,43 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            to="/"
+            to="/#about"
             className="hover:text-[#91765a] transition-colors duration-300"
           >
             About
           </Link>
           <Link
-            to="/"
+            to="/#services"
             className="hover:text-[#91765a] transition-colors duration-300"
           >
             Services
           </Link>
           <Link
+            to="/#pricing"
+            className="hover:text-[#91765a] transition-colors duration-300"
+          >
+            Pricing
+          </Link>
+          <Link
+            to="/#portfolio"
+            className="hover:text-[#91765a] transition-colors duration-300"
+          >
+            Portfolio
+          </Link>
+          <Link
             to="/"
+            className="hover:text-[#91765a] transition-colors duration-300"
+          >
+            Team
+          </Link>
+          <Link
+            to="/"
+            className="hover:text-[#91765a] transition-colors duration-300"
+          >
+            Blog
+          </Link>
+          <Link
+            to="/#contact"
             className="hover:text-[#91765a] transition-colors duration-300"
           >
             Contact

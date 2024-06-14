@@ -11,6 +11,7 @@ export default function NewsLetter() {
         style={{
           backgroundImage: `url(${hero})`,
         }}
+        id="contact"
       >
         <div
           className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-950/80 dark:to-gray-950/90"
