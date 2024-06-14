@@ -3,7 +3,7 @@ import pic1 from "../../../assets/20953.jpg";
 export default function About() {
   return (
     <>
-      <section className="py-14">
+      <section className="py-14" id="about">
         <div className="lg:max-w-screen-xl mx-auto md:px-8">
           <div className="items-center gap-12 px-4 md:px-0 lg:flex lg:flex-row-reverse">
             <div className="flex flex-row justify-center gap-5 ">

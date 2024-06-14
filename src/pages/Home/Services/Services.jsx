@@ -28,7 +28,7 @@ export default function Services() {
   ];
   return (
     <>
-      <section className="my-12">
+      <section className="my-12" id="services">
         <div className="text-center">
           <h3 className="text-[#625c56] font-bold">WHAT WE'RE OFFERING</h3>
           <h1 className="text-3xl font-bold sm:text-6xl">Barber Services</h1>

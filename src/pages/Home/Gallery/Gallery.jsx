@@ -9,7 +9,7 @@ import pic6 from "../../../assets/20953.jpg";
 export default function Gallery() {
   return (
     <>
-      <section className="">
+      <section className="" id="portfolio">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex w-full mb-20 flex-wrap">
             <h1 className="sm:text-3xl text-2xl font-medium title-font lg:w-1/3 lg:mb-0 mb-4">

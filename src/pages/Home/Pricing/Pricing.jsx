@@ -45,7 +45,10 @@ export default function Pricing() {
   ];
   return (
     <>
-      <div className="dark:bg-gray-950 rounded-lg p-6 md:p-8 lg:p-10">
+      <div
+        className="dark:bg-gray-950 rounded-lg p-6 md:p-8 lg:p-10"
+        id="pricing"
+      >
         <div className="grid gap-6 md:gap-8 lg:gap-10">
           <div className="text-center">
             <h3 className="text-[#625c56] font-bold">PRICING PLAN</h3>
