@@ -19,7 +19,7 @@ export default function PromoVideo() {
             <p className=" text-xl font-extrabold sm:text-5xl">
               Watch Our Barbershop Promo Video
             </p>
-            <a href="#">
+            <a href="https://www.youtube.com/watch?v=6jTMYDzoGAo">
               <div className="border-2 hover:scale-90 hover:text-[#625c56] transition-all duration-300 border-white hover:border-[#625c56] rounded-full w-24 h-24 flex items-center justify-center p-2">
                 <CiPlay1 className="text-4xl" />
               </div>
