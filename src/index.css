@@ -5,3 +5,40 @@
 body {
   background-color: #f5eee7;
 }
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.footer-input {
+  min-height: 50px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #aba59f;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #aba59f;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: #91765a;
+}
+
+.footer-input:focus,
+.footer-input:focus-visible {
+  border-color: #91765a;
+  outline: none;
+}
